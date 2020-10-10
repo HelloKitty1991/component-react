@@ -1,0 +1,117 @@
+
+.large_img_box {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(0, 0, 0);
+    left: 0px;
+    top: 0px;
+    transition: all 0.3s ease 0s;
+    display: flex;
+    opacity: 1;
+
+    .active-nav{
+        border: 2px solid deepskyblue;
+    }
+    .swiper-slide{
+        width: 100px;
+    }
+
+    .arrow_icon {
+        color: #fff;
+        font-size: 60px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .box {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        z-index: 1000;
+        background-color: rgba(0,0,0,1);
+        left: 0;
+        top: 0;
+        transition: .3s;
+        display: flex;
+        opacity: 0;
+    }
+
+    .large_inner_box {
+        width: 90%;
+        height: 90%;
+        background-color: rgba(255;255;255;1);
+        overflow: hidden;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+    }
+
+    .close_btn {
+        position: absolute;
+        right: 100px;
+        top: 50px;
+        color: #fff;
+        font-size: 20px;
+        z-index: 1;
+        cursor: pointer;
+    }
+
+    .inner_box_img{
+        cursor: pointer;
+    }
+
+    .btn {
+        position: absolute;
+        right: 20px;
+        margin: 5% 0;
+    }
+    
+    .font_style {
+        color: #fff;
+        font-size: 12px;
+        text-align: center;
+    };
+    
+    .tip_message{
+        min-width: 20%;
+        max-width: 40%;
+        height: 90%;
+        position: absolute;
+        left: 0;
+        z-index: 999;
+        opacity: 1;
+        background-color: rgba(0;0;0;.4);
+        overflow-y: auto;
+        font-weight: 500;
+    }
+    
+    .tip_independent{
+        min-width: 20%;
+        max-width: 40%;
+        height: 90%;
+        position: absolute;
+        left: 0;
+        z-index: 999;
+        opacity: 1;
+        background-color: gray;
+        color: rgba(0;0;0;1);
+        overflow-y: auto;
+        font-weight: 500;
+    }
+
+    .swiper-slide-active .swiper-slide {
+        box-sizing: content-box;
+    }
+    .thumb-container {
+        position: absolute;
+        bottom: -10px;
+        left: 45%;
+        transform: translate(-50%);
+    
+        & > div {
+            float: left;
+        }
+    }
+}

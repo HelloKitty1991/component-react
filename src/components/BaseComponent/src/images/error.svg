@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="81px" height="82px" viewBox="0 0 81 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter x="-7.4%" y="-7.3%" width="114.8%" height="114.6%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="1.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="订单重构" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="弹窗规范" transform="translate(-1569.000000, -141.000000)">
+            <g id="设置负责人-copy-6" transform="translate(1434.000000, 73.000000)">
+                <g id="分组" transform="translate(135.000000, 68.000000)">
+                    <g id="分组-22">
+                        <g id="状态_失败">
+                            <g id="分组" transform="translate(4.050000, 0.000000)">
+                                <path d="M36.45,4.1025641 C56.5833365,4.1025641 72.9,20.6309982 72.9,41.025641 C72.9,61.4202839 56.5752817,77.9487179 36.45,77.9487179 C16.3247183,77.9487179 0,61.4121245 0,41.025641 C0,20.6391575 16.3166635,4.1025641 36.45,4.1025641 Z" id="路径" fill="#F06D6D" fill-rule="nonzero" opacity="0.200000003" filter="url(#filter-1)"></path>
+                                <g id="closexian" fill="#F66C6C" fill-rule="nonzero">
+                                    <path d="M36.45,0 C56.5833365,0 72.9,16.5284341 72.9,36.9230769 C72.9,57.3177198 56.5752817,73.8461538 36.45,73.8461538 C16.3247183,73.8461538 0,57.3095604 0,36.9230769 C0,16.5365934 16.3166635,0 36.45,0 Z" id="形状"></path>
+                                </g>
+                            </g>
+                            <g id="分组-2" transform="translate(28.350000, 24.615385)" stroke="#FFFFFF" stroke-linecap="square">
+                                <path d="M0,0 L24.3421509,24.6580826" id="直线" stroke-width="6" fill-rule="nonzero"></path>
+                                <path d="M0,0 L24.3421509,24.6580826" id="直线-copy" stroke-width="6" fill-rule="nonzero" transform="translate(12.171075, 12.329041) scale(-1, 1) translate(-12.171075, -12.329041) "></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
